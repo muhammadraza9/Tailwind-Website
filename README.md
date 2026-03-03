@@ -1,0 +1,1 @@
+A fully responsive and modern website built using Tailwind CSS. This project demonstrates clean, utility-first styling, responsive layouts, and modern design patterns without relying on additional UI libraries.
