@@ -2,14 +2,9 @@
   "name": "tailwind-website",
   "version": "1.0.0",
   "scripts": {
-    "build": "echo 'No build needed'",
-    "start": "npx serve ."
+    "start": "npx serve . -l 3000"
   },
   "dependencies": {
-    "@tailwindcss/cli": "^4.1.18",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "serve": "^14.2.6",
-    "tailwindcss": "^4.1.18"
+    "serve": "^14.0.0"
   }
 }
