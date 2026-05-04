@@ -2,11 +2,12 @@
   "name": "tailwind-website",
   "version": "1.0.0",
   "scripts": {
-    "build": "tailwindcss -i ./src/input.css -o ./src/output.css --minify",
-    "start": "npx serve . -l $PORT --no-clipboard"
+    "build": "node node_modules/tailwindcss/dist/cli.js -i ./src/input.css -o ./src/output.css --minify",
+    "dev": "npx serve . -l 3000"
   },
   "dependencies": {
-  "serve": "^14.0.0",
-  "tailwindcss": "^4.1.18"
-}
+    "serve": "^14.0.0",
+    "tailwindcss": "^4.1.18",
+    "@tailwindcss/cli": "^4.1.18"
+  }
 }
