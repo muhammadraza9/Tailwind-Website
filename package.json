@@ -2,9 +2,13 @@
   "name": "tailwind-website",
   "version": "1.0.0",
   "scripts": {
-    "start": "npx serve . -l 3000"
+    "build": "tailwindcss -i ./src/input.css -o ./src/output.css --minify",
+    "start": "npx serve . -l $PORT --no-clipboard"
   },
   "dependencies": {
     "serve": "^14.0.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^4.1.18"
   }
 }
