@@ -6,7 +6,7 @@
     "start": "npx serve . -l $PORT --no-clipboard"
   },
   "dependencies": {
-    "serve": "^14.0.0",
-    "tailwindcss": "^4.1.18"
-  }
+  "serve": "^14.0.0",
+  "tailwindcss": "^4.1.18"
+}
 }
