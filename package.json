@@ -2,7 +2,7 @@
   "name": "tailwind-website",
   "version": "1.0.0",
   "scripts": {
-    "build": "node node_modules/tailwindcss/dist/cli.js -i ./src/input.css -o ./src/output.css --minify",
+    "build": "node node_modules/@tailwindcss/cli/dist/index.js -i ./src/input.css -o ./src/output.css --minify",
     "dev": "npx serve . -l 3000"
   },
   "dependencies": {
