@@ -1,0 +1,5 @@
+{
+  "deploy": {
+    "startCommand": "nginx -g 'daemon off;'"
+  }
+}
