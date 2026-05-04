@@ -3,7 +3,7 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm install
 COPY . .
-RUN ./node_modules/.bin/tailwindcss -i ./src/input.css -o ./src/output.css --minify
+RUN node node_modules/tailwindcss/dist/cli.js -i ./src/input.css -o ./src/output.css --minify
 
 FROM nginx:alpine
 COPY --from=builder /app /usr/share/nginx/html
