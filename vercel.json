@@ -1,5 +1,3 @@
 {
-  "buildCommand": "node node_modules/@tailwindcss/cli/dist/index.js -i ./src/input.css -o ./src/output.css --minify",
-  "outputDirectory": ".",
-  "installCommand": "npm install"
+  "outputDirectory": "."
 }
