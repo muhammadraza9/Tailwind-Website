@@ -1,6 +1,8 @@
-let miconElement=document.querySelector("#micon");
+// Mobile menu toggle
+const menuIcon = document.getElementById('micon');
+const nav = document.querySelector('nav');
 
-let navElement=document.querySelector("nav");
-miconElement.addEventListener("click", () => {
-    navElement.classList.toggle("left-[0px]");
+menuIcon.addEventListener('click', () => {
+    nav.classList.toggle('left-[-100%]');
+    nav.classList.toggle('left-0');
 });
